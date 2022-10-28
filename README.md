@@ -7,7 +7,7 @@ The repo exists to provide information about Advanced-and-Auto approaches in ML.
 
 # Meta Features model studing system (not Facebook)
 
-In simple words Meta Studing helps ML Engenier choose best alghoritm. In this task Meta Features are used to be the data and Alghoritm's quality is used to be a target.
+In simple words Meta Studing helps ML Engineer choose best alghoritm. In this task Meta Features are used to be the data and Alghoritm's quality is used to be a target.
 Meta Features describe the data as is. They don't change when row or column order changes.
 You shoud agregate columns with some function (for example max for discret column) and then agregate them one more time. Then you'll get one value (max of maxes) from all columns.
 
