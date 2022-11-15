@@ -1,6 +1,6 @@
 # Advanced-and-Auto-ML-Course
 
-This repo was created as my homeworks on ITMO University (SPB) Advanced-and-Auto cource.
+This repo was created as my homeworks on ITMO University (SPB) Advanced-and-Auto ML cource.
 The repo exists to provide information about Advanced-and-Auto approaches in ML.
 
 #### DataFrames for researches lay into "Data" folder
