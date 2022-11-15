@@ -84,9 +84,6 @@ class MetaFeatures:
         return: dict
         """
 
-        # добавить IV или GINI
-        # добавить количество пропусков как отдельную колонку
-
         statical_categ_meta_features = {}
         data = self.data[self.categor_columns]
         if data.shape[1] == 0:
@@ -209,7 +206,6 @@ class MetaFeatures:
             statical_discr_meta_features[col + "_mean"] = round(
                 stat_for_discr_vars[col].mean(), 2
             )
-            # statical_discr_meta_features[col+'_variation'] = round(variation(stat_for_discr_vars[col]),2)
 
         return statical_discr_meta_features
 
